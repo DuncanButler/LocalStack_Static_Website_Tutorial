@@ -1,0 +1,12 @@
+# Ignore all structurizr build files
+architecture/.structurizr
+architecture/workspace.json
+
+# ignore all terraform build and config files
+infrastructure/.terraform/*
+infrastructure/.terraform.lock.hcl
+infrastructure/terraform.tfstate
+infrastructure/terraform.tfstate.backup
+
+# ignore all jetbrains ide files
+.idea/
